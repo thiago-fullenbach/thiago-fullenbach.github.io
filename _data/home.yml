@@ -10,6 +10,9 @@ project_entries:
   - title: Vai.la
     url: vaila
     desc: URL shortening Web application built with Angular + Springboot
+  - title: TaskForgeAPI
+    url: taskforgeapi
+    desc: Task Management API with Audit logging built with Kotlin + Springboot and secured with JWT based Auth
 
 old_project_entries:
   - title: Armazém Digital

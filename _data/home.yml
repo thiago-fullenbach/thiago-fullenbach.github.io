@@ -13,6 +13,9 @@ project_entries:
   - title: TaskForgeAPI
     url: taskforgeapi
     desc: Task Management API with Audit logging built with Kotlin + Springboot and secured with JWT based Auth
+  - title: DroidDissect
+    url: droiddissect
+    desc: Native Android application for analyzing APK files and calculating a score based on their risks to the user's device. Built with Kotlin, Android Jetpack (Compose, Room, Navigation) and Hilt
 
 old_project_entries:
   - title: Armazém Digital

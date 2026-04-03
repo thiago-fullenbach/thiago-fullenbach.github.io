@@ -3,43 +3,43 @@ layout: post
 title: DroidDissect
 ---
 
-Android application focused on static analysis of APK files to detect security risks and misconfigurations.
-Designed to help developers and security-conscious users understand potential vulnerabilities before installing or distributing apps.
+Android application designed to analyze APK files and identify potential security risks before installation.
+Focused on helping users make safer decisions when dealing with unknown or external APKs.
 
-🔗 **GitHub:** [View Repository](https://github.com/thiago-fullenbach/droiddissect)
+🔗 **GitHub:** [View Repository](https://github.com/thiago-fullenbach/DroidDissect)
 
 ### 🚀 Features
-- APK static analysis (local or installed files)
-- Detection of common security misconfigurations:
+- Analyze APK files (local)
+- Detection of common security risks:
   - `allowBackup` enabled
   - `debuggable` flag active
   - `usesCleartextTraffic` (HTTP allowed)
-- Risk-based classification of findings
-- Local history of analyses using database persistence
-- Modern Android UI built with Jetpack Compose (Material 3)
+- Clear report with findings categorized by risk level
+- History of previous analyses stored locally
+- Modern UI built with Jetpack Compose (Material 3)
 
 ### 🏗️ Architecture & Tech
 
 - Kotlin
 - Jetpack Compose (Material 3)
 - Hilt (Dependency Injection)
-- Room (local persistence)
-- Coroutines & Flow (async/reactive handling)
+- Room (local database)
+- Coroutines & Flow (async handling)
 - Timber (logging)
 - Firebase Crashlytics
 
 ### ⚙️ Highlights
-- Modular analyzer design allowing easy addition of new security checkers
-- Clear separation between domain logic and UI layers
-- Local-first approach with offline capability
-- Scalable structure for future expansion (permissions, components, deeper APK inspection)
-- Designed with real-world security analysis concepts in mind
+- User-focused approach: simple and direct risk visibility without technical complexity
+- Lightweight and fully offline-capable
+- Structured findings system with risk categorization
+- Clean architecture separating UI, domain, and data layers
+- Designed for extensibility with new security checkers
 
 ### 🔮 Future Improvements
-- Expand analyzer with new checks (permissions, exported components, intent filters)
-- Introduce scoring system for overall APK security rating
-- CI/CD pipeline for automated testing and delivery
-- Exportable reports (PDF/JSON)
+- Expand risk detection (permissions, components, deeper APK inspection)
+- Introduce overall security scoring system
+- CI/CD pipelines for automated testing and delivery
+- Exportable analysis reports (PDF/JSON)
 
 ### 📱 UI Preview
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
